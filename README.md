@@ -16,7 +16,7 @@ Python (>=2.7.1)
 # Usage
 Run the following from the command line
 ```
-    python assign.py -v ASP -i reimand.txt -r 10 -f 5
+    python assign.py -v AllSP -i reimand.txt -r 10 -f 5
 
 ```
 
