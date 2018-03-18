@@ -1,4 +1,4 @@
-# NetworkAnnotation
+# Network annotation
 A chief goal of systems biology is the reconstruction of large-scale executable models of
 cellular processes of interest. While accurate continuous models are still beyond reach, a powerful
 alternative is to learn a logical model of the processes under study, which predicts the logical state of
