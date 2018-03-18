@@ -83,8 +83,6 @@ def read_net(filepathPPI, filepathPDI, filepathKPI, filepathKEGG):
         total = pd.concat([total,pdi])
         total = pd.concat([total,kpi])
         
-        
-
     vset = map(str,pd.unique(total.iloc[:,0:2].values.ravel()))
     G = Graph()
     G.add_vertices(len(vset))
@@ -238,7 +236,8 @@ def sp_graph(G,s,Ts):
     return Gs,ds,dTs
 
 ###################################################################################################################
-#Helper function that calls the shortest path subgraph function given a graph, set of sources and associated targets
+#Helper function that calls the shortest path subgraph function to generate shortest path subgraphs per source 
+#given a graph, set of sources and associated targets as input
 def preprocess(G,S,P):
     H = {}
     R = {}
