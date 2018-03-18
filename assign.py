@@ -508,9 +508,10 @@ def contract(G):
 
 ###################################################################################################################
 def main():
+    F = None
     G = read_net(PPI_FILE,PDI_FILE,KPI_FILE,KEGG_FILE)
-    #Uncomment for A-path
-    #F,G = contract(G)
+    if VARIANT == 'AP':
+        F,G = contract(G)
     pairs = pd.read_table(KO_FILE)
     pairs = pairs[pairs.iloc[:,3]<Q]
     pairs = pairs[np.array(map(np.abs,pairs.iloc[:,2]))>LFC]
