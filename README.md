@@ -19,10 +19,10 @@ Run the following from the command line
 ```
 
 -v: The signaling model used.
-    - AP (stands for A path. https://dl.acm.org/citation.cfm?id=2415282)
-    - ASP (stands for A Shortest Path) 
-    - AdirSP (stands for A directed Shortest Path)
-    - AllSP (stands for All Shortest Paths)
+- AP (stands for A path. https://dl.acm.org/citation.cfm?id=2415282)
+- ASP (stands for A Shortest Path) 
+- AdirSP (stands for A directed Shortest Path)
+- AllSP (stands for All Shortest Paths)
 
 -i: input file consisting of knock-out pairs inferred from gene knockout experiments via differential expression analysis. (See reimand.txt)
 
