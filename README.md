@@ -1,17 +1,15 @@
 # NetworkAnnotation
-A novel optimization framework to annotate physical protein interaction networks with signs. (Currently in press. Accepted to ISMB 2018)
-
 A chief goal of systems biology is the reconstruction of large-scale executable models of
 cellular processes of interest. While accurate continuous models are still beyond reach, a powerful
 alternative is to learn a logical model of the processes under study, which predicts the logical state of
 any node of the model as a Boolean function of its incoming nodes. Key to learning such models is the
 functional annotation of the underlying physical interactions (protein-protein or protein-DNA) with activation/repression (sign) effects. Such annotations are pretty common for a few well studied biological pathways. Here, we developed a novel optimization framework that uses different models
-of cellular signaling to predict the signs of yet unannotated physical interactions from large-scale gene-knockout experiments on a system-wide level.
+of cellular signaling to predict the signs of yet unannotated physical interactions from large-scale gene-knockout experiments on a system-wide level. (Currently in press. Accepted to ISMB 2018)
 
 Currently, the framework is implemented on physical interactions of budding yeast. (saccharomyces cerevisiae)
 
 # Requirements
-Gurobi (>=7.0.2)
+Gurobi (>=7.0.2), 
 Python (>=2.7.1)
 # Usage
 Run the following from the command line
