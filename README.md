@@ -15,8 +15,10 @@ Gurobi (>=7.0.2)
 Python (>=2.7.1)
 # Usage
 Run the following from the command line
+```
+    python assign.py -v ASP -i reimand.txt -r 10 -f 5
 
-python assign.py -v ASP -i reimand.txt -r 10 -f 5
+```
 
 -v: The signaling model used. 
     - ASP (stands for A Shortest Path) 
