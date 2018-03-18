@@ -18,7 +18,8 @@ Run the following from the command line
 
 ```
 
--v: The signaling model used. 
+-v: The signaling model used.
+    - AP (stands for A path. https://dl.acm.org/citation.cfm?id=2415282)
     - ASP (stands for A Shortest Path) 
     - AdirSP (stands for A directed Shortest Path)
     - AllSP (stands for All Shortest Paths)
