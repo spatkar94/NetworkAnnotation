@@ -33,4 +33,4 @@ Run the following from the command line
 A table consisting of the actual and predicted signs of all pre-annotated physical interactions along with their type (kpi: kinase-substrate/phosphatase-substrate interactions, pdi: protein DNA/regulatory interactions, KEGG: experimentally annotated physical interactions from the KEGG database, http://www.genome.jp/kegg/pathway.html). See output.txt.
 
 # Link to publication: 
-Currently in press. Accepted to ISMB 2018
+Currently in press. Accepted to ISMB 2018 (July 6-10)
