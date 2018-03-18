@@ -4,7 +4,7 @@ cellular processes of interest. While accurate continuous models are still beyon
 alternative is to learn a logical model of the processes under study, which predicts the logical state of
 any node of the model as a Boolean function of its incoming nodes. Key to learning such models is the
 functional annotation of the underlying physical interactions (protein-protein or protein-DNA) with activation/repression (sign) effects. Such annotations are pretty common for a few well studied biological pathways. Here, we developed a novel optimization framework that uses different models
-of cellular signaling to predict the signs of yet unannotated physical interactions from large-scale gene-knockout experiments on a system-wide level. (Currently in press. Accepted to ISMB 2018)
+of cellular signaling to predict the signs of yet unannotated physical interactions from large-scale gene-knockout experiments on a system-wide level. 
 
 Currently, the framework is implemented on physical interactions of budding yeast. (saccharomyces cerevisiae)
 
@@ -31,3 +31,6 @@ Run the following from the command line
 
 # Output
 A table consisting of the actual and predicted signs of all pre-annotated physical interactions along with their type (kpi: kinase-substrate/phosphatase-substrate interactions, pdi: protein DNA/regulatory interactions, KEGG: experimentally annotated physical interactions from the KEGG database, http://www.genome.jp/kegg/pathway.html). See output.txt.
+
+# Link to publication: 
+Currently in press. Accepted to ISMB 2018
