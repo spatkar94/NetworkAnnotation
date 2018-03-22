@@ -9,11 +9,17 @@ of cellular signaling to predict the signs of yet unannotated physical interacti
 Currently, the framework is implemented on physical interactions of budding yeast. (saccharomyces cerevisiae)
 
 # Requirements
-Gurobi (>=7.0.2), 
-Python (>=2.7.1)
+Gurobi (>=7.0.2) (Click [here](https://www.gurobi.com/documentation/7.5/quickstart_linux/the_gurobi_python_interfac.html) for installation instructions, 
+Python (>=2.7.1).
+Run the following from the command line to install remaining pre-requisite packages.
+```
+    cd /my_path/NetworkAnnotation/
+    pip install -r requirements.txt
+```
 # Usage
 Run the following from the command line
 ```
+    cd /my_path/NetworkAnnotation/
     python assign.py -v AllSP -i reimand.txt -r 10 -f 5
 
 ```
