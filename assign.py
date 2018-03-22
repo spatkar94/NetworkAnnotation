@@ -4,7 +4,6 @@ from gurobipy import *
 import pandas as pd
 import numpy as np
 from tqdm import tqdm
-import pickle
 import random
 from sklearn.metrics import roc_curve, auc
 
