@@ -9,9 +9,9 @@ of cellular signaling to predict the signs of yet unannotated physical interacti
 Currently, the framework is implemented on physical interactions of budding yeast. (saccharomyces cerevisiae)
 
 # Requirements
-Gurobi (>=7.0.2) (Click [here](https://www.gurobi.com/documentation/7.5/quickstart_linux/the_gurobi_python_interfac.html) for installation instructions.
+- Gurobi (>=7.0.2) (Click [here](https://www.gurobi.com/documentation/7.5/quickstart_linux/the_gurobi_python_interfac.html) for installation instructions).
 
-Python (>=2.7.1).
+- Python (>=2.7.1).
 
 Run the following from the command line to install remaining pre-requisite packages.
 ```
