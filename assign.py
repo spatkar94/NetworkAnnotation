@@ -556,7 +556,7 @@ def main():
         for round in range(ROUNDS):
             m.reset()
             m.setObjective(quicksum((1 + 0.1*np.random.randn())*y[(s,t)] for s,t in y.keys()),GRB.MAXIMIZE)
-            m.setParam(GRB.param.TimeLimit, 14400)
+            m.setParam(GRB.param.TimeLimit, 10800)
             m.setParam(GRB.param.MIPGap, 0.1)
             m.optimize()
             for j in test:
