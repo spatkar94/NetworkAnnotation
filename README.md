@@ -42,4 +42,4 @@ Run the following from the command line
 A table consisting of the actual signs and predicted sign confidence scores of all pre-annotated physical interactions along with their type (kpi: kinase-substrate/phosphatase-substrate interactions, pdi: protein DNA/regulatory interactions, KEGG: experimentally annotated physical interactions from the KEGG database, http://www.genome.jp/kegg/pathway.html). See output.txt.
 
 # Link to publication 
-Currently in press.
+[https://doi.org/10.1093/bioinformatics/bty236](https://doi.org/10.1093/bioinformatics/bty236)
